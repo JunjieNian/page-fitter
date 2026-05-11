@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "page-fitter"
+version = "0.1.0"
+description = "Layout-aware LaTeX page-trimming advisor — ranks edits by PDF-height impact, not source length."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "Junjie Nian", email = "njj20060901@gmail.com" },
+]
+keywords = ["latex", "pdf", "page-limit", "typesetting", "academic-writing"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Markup :: LaTeX",
+]
+dependencies = [
+    "pymupdf>=1.24",
+    "pylatexenc>=2.10",
+    "regex>=2024.5.15",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.4",
+]
+
+[project.scripts]
+page-fitter = "scripts.cli.page_fitter:main"
+
+[project.urls]
+Homepage = "https://github.com/JunjieNian/page-fitter"
+Repository = "https://github.com/JunjieNian/page-fitter"
+Issues = "https://github.com/JunjieNian/page-fitter/issues"
+
+[tool.setuptools.packages.find]
+include = ["scripts*"]
+
+[tool.ruff]
+target-version = "py39"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

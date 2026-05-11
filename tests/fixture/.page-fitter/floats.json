@@ -1,0 +1,645 @@
+{
+  "schema_version": "1.0",
+  "by_candidate": {
+    "c001": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c002": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c003": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c004": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c005": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c006": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c007": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c008": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c009": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c010": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c011": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c012": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c013": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c014": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c015": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c016": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c017": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c018": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c019": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c020": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c021": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c022": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c023": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c024": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c025": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c026": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c027": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c028": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c029": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c030": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c031": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c032": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c033": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c034": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c035": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c036": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c037": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c038": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c039": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c040": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c041": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c042": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c043": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c044": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c045": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c046": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c047": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c048": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c049": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c050": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c051": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c052": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c053": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c054": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c055": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c056": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c057": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c058": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c059": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c060": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c061": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c062": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c063": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c064": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c065": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c066": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c067": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c068": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c069": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c070": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c071": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c072": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c073": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c074": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c075": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c076": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c077": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c078": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c079": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c080": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c081": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c082": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": false
+    },
+    "c083": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": true
+    },
+    "c084": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": true
+    },
+    "c085": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": true
+    },
+    "c086": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": true
+    },
+    "c087": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": true
+    },
+    "c088": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": true
+    },
+    "c089": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": true
+    },
+    "c090": {
+      "float_risk": 0.4,
+      "near_floats": [
+        "float_env"
+      ],
+      "downstream_is_float_or_heading": true
+    },
+    "c091": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c092": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c093": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c094": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c095": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c096": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c097": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c098": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c099": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c100": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c101": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c102": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c103": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c104": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c105": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c106": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c107": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c108": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c109": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c110": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c111": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c112": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c113": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": false
+    },
+    "c114": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c115": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c116": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c117": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    },
+    "c118": {
+      "float_risk": 0.0,
+      "near_floats": [],
+      "downstream_is_float_or_heading": true
+    }
+  }
+}

@@ -1,0 +1,120 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{lipsum}
+
+\title{A Toy Paper for page-fitter (current: 3 pages, target: 2 pages)}
+\author{Anonymous}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This is the abstract. The abstract environment is explicitly excluded from
+candidate generation, so nothing here should ever appear in the page-fitter
+report. We deliberately make it short.
+\end{abstract}
+
+\section{Introduction}
+In this paper, we introduce a toy fixture for stress-testing the page-fitter
+skill. Furthermore, we demonstrate that the skill can rank candidate edits by
+PDF-height impact rather than by source length. It is worth noting that, this
+opening paragraph is intentionally written so that its last line is nearly
+full, which gives it a high last-line-fill ratio, which means a small
+deletion should collapse one rendered line. Moreover, we propose a new way
+to count things that improves accuracy by 12 percent over the baseline.
+As mentioned above, accuracy is what matters. In other words, we will show
+that our method outperforms prior work by a substantial margin on every
+benchmark we evaluated.
+\lipsum[1][1-6]
+
+\lipsum[2][1-5] Furthermore, this paragraph also exists for stress-testing.
+It is worth noting that, the lipsum environment provides reproducible
+filler for layout experiments. As mentioned above, reproducibility is key.
+
+\section{Related Work}
+\lipsum[3][1-5] Furthermore, prior work has not addressed the page-budget
+problem directly. It is worth noting that, several authors have considered
+related problems but with different objectives. We show that our framing is
+strictly more general. As we have seen, the literature is fragmented across
+three communities. In this section, we describe the relevant threads.
+\lipsum[4][1-5]
+
+In other words, the related work spans optimization, typesetting, and
+machine learning. Moreover, no single prior work addresses all three
+perspectives simultaneously. Furthermore, our framework unifies them under
+a common scoring formula. \lipsum[5][1-3]
+
+\section{Method}
+We now describe the method. \lipsum[6][1-5]
+
+In this section, we describe the algorithm in detail. Moreover, we provide
+a worked example. It is worth noting that, the algorithm has linear time
+complexity. Furthermore, the algorithm is parallelizable across multiple
+threads. As mentioned above, scalability is critical for practical use.
+\lipsum[7][1-4]
+
+\begin{figure}[ht]
+  \centering
+  \rule{6cm}{3cm}
+  \caption{The architecture of our model. As shown in the diagram, the
+    encoder feeds into the decoder via a residual path, and the decoder
+    produces the final output through a linear projection layer that we
+    describe in detail in Section~3, with all intermediate representations
+    stored for later inspection.}
+  \label{fig:arch}
+\end{figure}
+
+In other words, the figure summarises the entire architecture. Furthermore,
+the architecture is modular and can be extended easily. As mentioned above,
+extensibility is one of the strengths of our design.
+
+\section{Experiments}
+We compare against three baselines on two datasets. As shown in
+Figure~\ref{fig:arch} and Table~\ref{tab:results}, our method consistently
+outperforms prior work. \lipsum[8][1-5] Furthermore, the gap widens on the
+larger dataset. It is worth noting that, the variance across seeds is
+small.
+
+\begin{table}[ht]
+  \centering
+  \caption{Main results on two benchmarks. As mentioned above, our method
+    outperforms all baselines by a wide margin, and the gap is particularly
+    pronounced on the larger of the two datasets we considered.}
+  \label{tab:results}
+  \begin{tabular}{lcc}
+    \toprule
+    Method & Dataset A & Dataset B \\
+    \midrule
+    Baseline 1 & 71.2 & 68.5 \\
+    Baseline 2 & 74.8 & 70.1 \\
+    Baseline 3 & 76.5 & 71.4 \\
+    Ours       & \textbf{83.4} & \textbf{79.6} \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\lipsum[9][1-5]
+
+In other words, the experiments confirm the theoretical predictions.
+Furthermore, the ablation study (omitted for space) shows that every
+component contributes meaningfully. It is worth noting that, results are
+averaged over three random seeds.
+
+\section{Discussion}
+In this section, we discuss the implications. As we have seen, the method
+generalizes well. Moreover, it is robust to hyperparameter choices.
+Furthermore, it scales gracefully with data size. It is worth noting that,
+all experiments were conducted with three random seeds. In other words, the
+results are reproducible. \lipsum[10][1-4]
+
+\section{Conclusion}
+In this section, we conclude. That is to say, we are done. We show that our
+method achieves 99 percent accuracy on the toy task. Furthermore, we believe
+the framework is broadly applicable. As mentioned above, future work will
+extend the analysis to additional benchmarks. In other words, this is just
+the beginning.
+
+\end{document}

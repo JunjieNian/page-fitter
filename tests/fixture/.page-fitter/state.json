@@ -1,0 +1,1253 @@
+{
+  "schema_version": "1.0",
+  "main_tex": "min.tex",
+  "project_root": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture",
+  "pdf": {
+    "path": "min.pdf",
+    "page_count": 3,
+    "pages": [
+      {
+        "page": 1,
+        "width": 612.0,
+        "height": 792.0,
+        "columns": [
+          {
+            "x_min": 71.99999237060547,
+            "x_max": 327.9173889160156,
+            "text_width": 255.91739654541016
+          },
+          {
+            "x_min": 71.99999237060547,
+            "x_max": 540.0984497070312,
+            "text_width": 468.0984573364258
+          }
+        ],
+        "baseline_skip": 13.54901123046875,
+        "blocks": [
+          {
+            "block_id": "p1.b1",
+            "bbox": [
+              90.8280029296875,
+              113.2557601928711,
+              521.1954956054688,
+              130.47116088867188
+            ],
+            "column": 0,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                90.8280029296875,
+                113.2557601928711,
+                521.1954956054688,
+                130.47116088867188
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 12,
+              "last_line": 12
+            },
+            "text_preview": "A Toy Paper for page-fitter (current: 3 pages, target: 2 pages)"
+          },
+          {
+            "block_id": "p1.b2",
+            "bbox": [
+              275.8919982910156,
+              153.62062072753906,
+              336.1223449707031,
+              165.57582092285156
+            ],
+            "column": 0,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                275.8919982910156,
+                153.62062072753906,
+                336.1223449707031,
+                165.57582092285156
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 12,
+              "last_line": 12
+            },
+            "text_preview": "Anonymous"
+          },
+          {
+            "block_id": "p1.b3",
+            "bbox": [
+              284.0820007324219,
+              195.45188903808594,
+              327.9173889160156,
+              205.41448974609375
+            ],
+            "column": 0,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                284.0820007324219,
+                195.45188903808594,
+                327.9173889160156,
+                205.41448974609375
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 15,
+              "last_line": 15
+            },
+            "text_preview": "Abstract"
+          },
+          {
+            "block_id": "p1.b4",
+            "bbox": [
+              99.27299499511719,
+              213.63389587402344,
+              512.78076171875,
+              247.50750732421875
+            ],
+            "column": 0,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                114.21699523925781,
+                213.63389587402344,
+                512.7509155273438,
+                223.59649658203125
+              ],
+              [
+                99.27299499511719,
+                225.5889129638672,
+                512.78076171875,
+                235.551513671875
+              ],
+              [
+                99.27299499511719,
+                237.54490661621094,
+                124.26915740966797,
+                247.50750732421875
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 16,
+              "last_line": 16
+            },
+            "text_preview": "This is the abstract. The abstract environment is explicitly excluded from candidate gen-\neration, so nothing here shoul"
+          },
+          {
+            "block_id": "p1.b5",
+            "bbox": [
+              71.99999237060547,
+              268.4909973144531,
+              185.0767059326172,
+              282.8371887207031
+            ],
+            "column": 0,
+            "kind": "heading",
+            "line_bboxes": [
+              [
+                71.99999237060547,
+                268.4909973144531,
+                80.076904296875,
+                282.8371887207031
+              ],
+              [
+                96.21637725830078,
+                268.4909973144531,
+                185.0767059326172,
+                282.8371887207031
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 20,
+              "last_line": 20
+            },
+            "text_preview": "1\nIntroduction"
+          },
+          {
+            "block_id": "p1.b6",
+            "bbox": [
+              71.99999237060547,
+              295.5291748046875,
+              540.0984497070312,
+              523.2254028320312
+            ],
+            "column": 0,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                71.99999237060547,
+                295.5291748046875,
+                540.0440063476562,
+                306.43829345703125
+              ],
+              [
+                71.99999237060547,
+                309.07818603515625,
+                540.0658569335938,
+                319.9873046875
+              ],
+              [
+                71.99999237060547,
+                322.627197265625,
+                540.0984497070312,
+                333.53631591796875
+              ],
+              [
+                71.99999237060547,
+                336.17620849609375,
+                540.0546264648438,
+                347.0853271484375
+              ],
+              [
+                71.99999237060547,
+                349.7261962890625,
+                540.0331420898438,
+                360.63531494140625
+              ],
+              [
+                71.99999237060547,
+                363.27520751953125,
+                540.01123046875,
+                374.184326171875
+              ],
+              [
+                71.99999237060547,
+                376.82421875,
+                540.0657958984375,
+                387.73333740234375
+              ],
+              [
+                71.99999237060547,
+                390.37322998046875,
+                540.0438842773438,
+                401.2823486328125
+              ],
+              [
+                71.99999237060547,
+                403.9222412109375,
+                540.0767211914062,
+                414.83135986328125
+              ],
+              [
+                71.99999237060547,
+                417.47222900390625,
+                540.0437622070312,
+                428.38134765625
+              ],
+              [
+                71.99999237060547,
+                431.021240234375,
+                410.8039245605469,
+                441.93035888671875
+              ],
+              [
+                88.93699645996094,
+                444.57025146484375,
+                412.9043884277344,
+                455.4793701171875
+              ],
+              [
+                421.7407531738281,
+                444.57025146484375,
+                540.0825805664062,
+                455.4793701171875
+              ],
+              [
+                72.0,
+                458.1192626953125,
+                540.0547485351562,
+                469.02838134765625
+              ],
+              [
+                72.0,
+                471.66827392578125,
+                540.0548095703125,
+                482.577392578125
+              ],
+              [
+                72.0,
+                485.21826171875,
+                540.0548706054688,
+                496.12738037109375
+              ],
+              [
+                72.0,
+                498.76727294921875,
+                540.0655517578125,
+                509.6763916015625
+              ],
+              [
+                72.0,
+                512.3162841796875,
+                174.87286376953125,
+                523.2254028320312
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 31,
+              "last_line": 31
+            },
+            "text_preview": "In this paper, we introduce a toy fixture for stress-testing the page-fitter skill. Furthermore, we\ndemonstrate that the"
+          },
+          {
+            "block_id": "p1.b7",
+            "bbox": [
+              72.0,
+              544.0020751953125,
+              194.45916748046875,
+              558.3483276367188
+            ],
+            "column": 0,
+            "kind": "heading",
+            "line_bboxes": [
+              [
+                72.0,
+                544.0020751953125,
+                80.07691192626953,
+                558.3483276367188
+              ],
+              [
+                96.21638488769531,
+                544.0020751953125,
+                194.45916748046875,
+                558.3483276367188
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 37,
+              "last_line": 37
+            },
+            "text_preview": "2\nRelated Work"
+          },
+          {
+            "block_id": "p1.b8",
+            "bbox": [
+              72.0,
+              571.040283203125,
+              540.0875244140625,
+              717.44140625
+            ],
+            "column": 0,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                72.0,
+                571.040283203125,
+                540.0875244140625,
+                581.9494018554688
+              ],
+              [
+                72.0,
+                584.5892944335938,
+                540.0438842773438,
+                595.4984130859375
+              ],
+              [
+                72.0,
+                598.1392822265625,
+                540.0439453125,
+                609.0484008789062
+              ],
+              [
+                72.0,
+                611.6882934570312,
+                540.0548095703125,
+                622.597412109375
+              ],
+              [
+                72.0,
+                625.2373046875,
+                540.0220336914062,
+                636.1464233398438
+              ],
+              [
+                72.0,
+                638.7863159179688,
+                540.01123046875,
+                649.6954345703125
+              ],
+              [
+                72.0,
+                652.3352661132812,
+                540.0657348632812,
+                663.244384765625
+              ],
+              [
+                72.0,
+                665.8853149414062,
+                397.49481201171875,
+                676.79443359375
+              ],
+              [
+                88.93699645996094,
+                679.4342651367188,
+                540.0609741210938,
+                690.3433837890625
+              ],
+              [
+                72.0,
+                692.9832763671875,
+                540.032958984375,
+                703.8923950195312
+              ],
+              [
+                72.0,
+                706.5322875976562,
+                540.0548095703125,
+                717.44140625
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 41,
+              "last_line": 41
+            },
+            "text_preview": "Nulla malesuada porttitor diam. Donec felis erat, congue non, volutpat at, tincidunt tristique,\nlibero. Vivamus viverra "
+          },
+          {
+            "block_id": "p1.b9",
+            "bbox": [
+              303.27301025390625,
+              741.3622436523438,
+              308.7275695800781,
+              752.2713623046875
+            ],
+            "column": 0,
+            "kind": "heading",
+            "line_bboxes": [
+              [
+                303.27301025390625,
+                741.3622436523438,
+                308.7275695800781,
+                752.2713623046875
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 50,
+              "last_line": 50
+            },
+            "text_preview": "1"
+          }
+        ]
+      },
+      {
+        "page": 2,
+        "width": 612.0,
+        "height": 792.0,
+        "columns": [
+          {
+            "x_min": 72.0,
+            "x_max": 390.61090087890625,
+            "text_width": 318.61090087890625
+          },
+          {
+            "x_min": 72.0,
+            "x_max": 540.0985717773438,
+            "text_width": 468.09857177734375
+          }
+        ],
+        "baseline_skip": 13.5489501953125,
+        "blocks": [
+          {
+            "block_id": "p2.b1",
+            "bbox": [
+              72.0,
+              74.43318176269531,
+              540.0437622070312,
+              98.89128875732422
+            ],
+            "column": 0,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                72.0,
+                74.43318176269531,
+                540.0437622070312,
+                85.34227752685547
+              ],
+              [
+                72.0,
+                87.98219299316406,
+                91.46183776855469,
+                98.89128875732422
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 48,
+              "last_line": 48
+            },
+            "text_preview": "lectus. Sed bibendum, nulla a faucibus semper, leo velit ultricies tellus, ac venenatis arcu wisi vel\nnisl."
+          },
+          {
+            "block_id": "p2.b2",
+            "bbox": [
+              72.0,
+              119.66799926757812,
+              151.62139892578125,
+              134.01419067382812
+            ],
+            "column": 0,
+            "kind": "heading",
+            "line_bboxes": [
+              [
+                72.0,
+                119.66799926757812,
+                80.07691192626953,
+                134.01419067382812
+              ],
+              [
+                96.21638488769531,
+                119.66799926757812,
+                151.62139892578125,
+                134.01419067382812
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 51,
+              "last_line": 51
+            },
+            "text_preview": "3\nMethod"
+          },
+          {
+            "block_id": "p2.b3",
+            "bbox": [
+              72.0,
+              146.70619201660156,
+              540.065673828125,
+              238.91131591796875
+            ],
+            "column": 0,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                72.0,
+                146.70619201660156,
+                540.043701171875,
+                157.61529541015625
+              ],
+              [
+                72.0,
+                160.2561798095703,
+                540.0220336914062,
+                171.165283203125
+              ],
+              [
+                72.0,
+                173.80519104003906,
+                540.0220947265625,
+                184.71429443359375
+              ],
+              [
+                88.93600463867188,
+                187.3542022705078,
+                540.0271606445312,
+                198.2633056640625
+              ],
+              [
+                72.0,
+                200.90321350097656,
+                540.065673828125,
+                211.81231689453125
+              ],
+              [
+                72.0,
+                214.4522247314453,
+                540.0328369140625,
+                225.361328125
+              ],
+              [
+                72.0,
+                228.00221252441406,
+                415.1565856933594,
+                238.91131591796875
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 53,
+              "last_line": 53
+            },
+            "text_preview": "We now describe the method. Suspendisse vel felis. Ut lorem lorem, interdum eu, tincidunt sit\namet, laoreet vitae, arcu."
+          },
+          {
+            "block_id": "p2.b4",
+            "bbox": [
+              72.0,
+              350.6291809082031,
+              540.0985717773438,
+              402.1863098144531
+            ],
+            "column": 0,
+            "kind": "caption",
+            "line_bboxes": [
+              [
+                72.0,
+                350.6291809082031,
+                540.0437622070312,
+                361.5382995605469
+              ],
+              [
+                72.0,
+                364.1781921386719,
+                540.0985717773438,
+                375.0873107910156
+              ],
+              [
+                72.0,
+                377.7281799316406,
+                540.0439453125,
+                388.6372985839844
+              ],
+              [
+                72.0,
+                391.2771911621094,
+                123.28369140625,
+                402.1863098144531
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 66,
+              "last_line": 66
+            },
+            "text_preview": "Figure 1: The architecture of our model. As shown in the diagram, the encoder feeds into the\ndecoder via a residual path"
+          },
+          {
+            "block_id": "p2.b5",
+            "bbox": [
+              72.0,
+              416.78118896484375,
+              540.0440063476562,
+              454.788330078125
+            ],
+            "column": 0,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                88.93600463867188,
+                416.78118896484375,
+                540.0270385742188,
+                427.6903076171875
+              ],
+              [
+                72.0,
+                430.3302001953125,
+                540.0440063476562,
+                441.23931884765625
+              ],
+              [
+                72.0,
+                443.87921142578125,
+                124.22187042236328,
+                454.788330078125
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 70,
+              "last_line": 70
+            },
+            "text_preview": "In other words, the figure summarises the entire architecture. Furthermore, the architecture is\nmodular and can be exten"
+          },
+          {
+            "block_id": "p2.b6",
+            "bbox": [
+              72.0,
+              475.5660095214844,
+              185.17718505859375,
+              489.9122009277344
+            ],
+            "column": 0,
+            "kind": "heading",
+            "line_bboxes": [
+              [
+                72.0,
+                475.5660095214844,
+                80.07691192626953,
+                489.9122009277344
+              ],
+              [
+                96.21638488769531,
+                475.5660095214844,
+                185.17718505859375,
+                489.9122009277344
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 74,
+              "last_line": 74
+            },
+            "text_preview": "4\nExperiments"
+          },
+          {
+            "block_id": "p2.b7",
+            "bbox": [
+              72.0,
+              502.60418701171875,
+              540.0657348632812,
+              581.25927734375
+            ],
+            "column": 0,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                72.0,
+                502.60418701171875,
+                333.7420654296875,
+                513.5133056640625
+              ],
+              [
+                343.0693359375,
+                502.60418701171875,
+                540.022216796875,
+                513.5133056640625
+              ],
+              [
+                72.0,
+                516.1531982421875,
+                290.82562255859375,
+                527.0623168945312
+              ],
+              [
+                299.749267578125,
+                516.1531982421875,
+                540.0438842773438,
+                527.0623168945312
+              ],
+              [
+                72.0,
+                529.7022094726562,
+                539.9892578125,
+                540.611328125
+              ],
+              [
+                72.0,
+                543.2511596679688,
+                540.0657348632812,
+                554.1602783203125
+              ],
+              [
+                72.0,
+                556.8012084960938,
+                540.054931640625,
+                567.7103271484375
+              ],
+              [
+                72.0,
+                570.3501586914062,
+                171.15283203125,
+                581.25927734375
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 77,
+              "last_line": 77
+            },
+            "text_preview": "We compare against three baselines on two datasets.\nAs shown in Figure 1 and Table 1, our\nmethod consistently outperform"
+          },
+          {
+            "block_id": "p2.b8",
+            "bbox": [
+              72.0,
+              599.8432006835938,
+              540.0657348632812,
+              637.851318359375
+            ],
+            "column": 0,
+            "kind": "caption",
+            "line_bboxes": [
+              [
+                72.0,
+                599.8432006835938,
+                285.1202087402344,
+                610.7523193359375
+              ],
+              [
+                294.8293151855469,
+                599.8432006835938,
+                540.0440063476562,
+                610.7523193359375
+              ],
+              [
+                72.0,
+                613.3921508789062,
+                540.0657348632812,
+                624.30126953125
+              ],
+              [
+                72.0,
+                626.9421997070312,
+                140.88006591796875,
+                637.851318359375
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 85,
+              "last_line": 85
+            },
+            "text_preview": "Table 1: Main results on two benchmarks.\nAs mentioned above, our method outperforms all\nbaselines by a wide margin, and "
+          },
+          {
+            "block_id": "p2.b9",
+            "bbox": [
+              221.3780059814453,
+              641.3482055664062,
+              390.61090087890625,
+              652.25732421875
+            ],
+            "column": 0,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                221.3780059814453,
+                641.3482055664062,
+                258.3598327636719,
+                652.25732421875
+              ],
+              [
+                281.738037109375,
+                641.3482055664062,
+                330.4253845214844,
+                652.25732421875
+              ],
+              [
+                342.3817443847656,
+                641.3482055664062,
+                390.61090087890625,
+                652.25732421875
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 89,
+              "last_line": 89
+            },
+            "text_preview": "Method\nDataset A\nDataset B"
+          },
+          {
+            "block_id": "p2.b10",
+            "bbox": [
+              221.3780059814453,
+              660.3751831054688,
+              377.64776611328125,
+              711.9312744140625
+            ],
+            "column": 0,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                221.3780059814453,
+                660.3751831054688,
+                269.7598571777344,
+                671.2843017578125
+              ],
+              [
+                296.3671569824219,
+                660.3751831054688,
+                315.7635498046875,
+                671.2843017578125
+              ],
+              [
+                356.8035888671875,
+                660.3751831054688,
+                376.1999816894531,
+                671.2843017578125
+              ],
+              [
+                221.3780059814453,
+                673.9241943359375,
+                269.7598571777344,
+                684.8333129882812
+              ],
+              [
+                296.3671569824219,
+                673.9241943359375,
+                315.7635498046875,
+                684.8333129882812
+              ],
+              [
+                356.8035888671875,
+                673.9241943359375,
+                376.1999816894531,
+                684.8333129882812
+              ],
+              [
+                221.3780059814453,
+                687.4732055664062,
+                269.7598571777344,
+                698.38232421875
+              ],
+              [
+                296.3671569824219,
+                687.4732055664062,
+                315.7635498046875,
+                698.38232421875
+              ],
+              [
+                356.8035888671875,
+                687.4732055664062,
+                376.1999816894531,
+                698.38232421875
+              ],
+              [
+                221.3780059814453,
+                701.0221557617188,
+                244.5052947998047,
+                711.9312744140625
+              ],
+              [
+                294.92401123046875,
+                701.0221557617188,
+                317.22222900390625,
+                711.9312744140625
+              ],
+              [
+                355.34954833984375,
+                701.0221557617188,
+                377.64776611328125,
+                711.9312744140625
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 92,
+              "last_line": 92
+            },
+            "text_preview": "Baseline 1\n71.2\n68.5\nBaseline 2\n74.8\n70.1\nBaseline 3\n76.5\n71.4\nOurs\n83.4\n79.6"
+          },
+          {
+            "block_id": "p2.b11",
+            "bbox": [
+              303.27301025390625,
+              741.3621826171875,
+              308.7275695800781,
+              752.2713012695312
+            ],
+            "column": 0,
+            "kind": "heading",
+            "line_bboxes": [
+              [
+                303.27301025390625,
+                741.3621826171875,
+                308.7275695800781,
+                752.2713012695312
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 100,
+              "last_line": 100
+            },
+            "text_preview": "2"
+          }
+        ]
+      },
+      {
+        "page": 3,
+        "width": 612.0,
+        "height": 792.0,
+        "columns": [
+          {
+            "x_min": 72.0,
+            "x_max": 173.45631408691406,
+            "text_width": 101.45631408691406
+          },
+          {
+            "x_min": 72.0,
+            "x_max": 540.07666015625,
+            "text_width": 468.07666015625
+          }
+        ],
+        "baseline_skip": 13.54901123046875,
+        "blocks": [
+          {
+            "block_id": "p3.b1",
+            "bbox": [
+              72.0,
+              74.43318176269531,
+              540.0599365234375,
+              153.08831787109375
+            ],
+            "column": 1,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                88.93599700927734,
+                74.43318176269531,
+                540.0489501953125,
+                85.34227752685547
+              ],
+              [
+                72.0,
+                87.98219299316406,
+                540.0437622070312,
+                98.89128875732422
+              ],
+              [
+                72.0,
+                101.53120422363281,
+                538.6474609375,
+                112.44029998779297
+              ],
+              [
+                88.93600463867188,
+                115.08021545410156,
+                540.0599365234375,
+                125.98931121826172
+              ],
+              [
+                72.0,
+                128.6302032470703,
+                540.0548095703125,
+                139.539306640625
+              ],
+              [
+                72.0,
+                142.17921447753906,
+                315.4584045410156,
+                153.08831787109375
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 99,
+              "last_line": 99
+            },
+            "text_preview": "Morbi luctus, wisi viverra faucibus pretium, nibh est placerat odio, nec commodo wisi enim\neget quam. Quisque libero jus"
+          },
+          {
+            "block_id": "p3.b2",
+            "bbox": [
+              72.0,
+              173.86502075195312,
+              169.85543823242188,
+              188.21121215820312
+            ],
+            "column": 0,
+            "kind": "heading",
+            "line_bboxes": [
+              [
+                72.0,
+                173.86502075195312,
+                80.07691192626953,
+                188.21121215820312
+              ],
+              [
+                96.21638488769531,
+                173.86502075195312,
+                169.85543823242188,
+                188.21121215820312
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 103,
+              "last_line": 103
+            },
+            "text_preview": "5\nDiscussion"
+          },
+          {
+            "block_id": "p3.b3",
+            "bbox": [
+              72.0,
+              200.90321350097656,
+              540.0657348632812,
+              279.558349609375
+            ],
+            "column": 1,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                72.0,
+                200.90321350097656,
+                539.9892578125,
+                211.81231689453125
+              ],
+              [
+                72.0,
+                214.4522247314453,
+                540.0330810546875,
+                225.361328125
+              ],
+              [
+                72.0,
+                228.00221252441406,
+                540.0330200195312,
+                238.91131591796875
+              ],
+              [
+                72.0,
+                241.5512237548828,
+                540.0657348632812,
+                252.4603271484375
+              ],
+              [
+                72.0,
+                255.10023498535156,
+                540.010986328125,
+                266.00933837890625
+              ],
+              [
+                72.0,
+                268.64923095703125,
+                169.40736389160156,
+                279.558349609375
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 110,
+              "last_line": 110
+            },
+            "text_preview": "In this section, we discuss the implications. As we have seen, the method generalizes well. Moreover,\nit is robust to hy"
+          },
+          {
+            "block_id": "p3.b4",
+            "bbox": [
+              72.0,
+              300.3350524902344,
+              173.45631408691406,
+              314.6812438964844
+            ],
+            "column": 0,
+            "kind": "heading",
+            "line_bboxes": [
+              [
+                72.0,
+                300.3350524902344,
+                80.07691192626953,
+                314.6812438964844
+              ],
+              [
+                96.21638488769531,
+                300.3350524902344,
+                173.45631408691406,
+                314.6812438964844
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 111,
+              "last_line": 111
+            },
+            "text_preview": "6\nConclusion"
+          },
+          {
+            "block_id": "p3.b5",
+            "bbox": [
+              72.0,
+              327.37322998046875,
+              540.07666015625,
+              378.93035888671875
+            ],
+            "column": 1,
+            "kind": "paragraph",
+            "line_bboxes": [
+              [
+                72.0,
+                327.37322998046875,
+                540.01123046875,
+                338.2823486328125
+              ],
+              [
+                72.0,
+                340.9232177734375,
+                540.0328979492188,
+                351.83233642578125
+              ],
+              [
+                72.0,
+                354.47222900390625,
+                540.07666015625,
+                365.38134765625
+              ],
+              [
+                72.0,
+                368.021240234375,
+                194.02919006347656,
+                378.93035888671875
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 115,
+              "last_line": 115
+            },
+            "text_preview": "In this section, we conclude. That is to say, we are done. We show that our method achieves 99\npercent accuracy on the t"
+          },
+          {
+            "block_id": "p3.b6",
+            "bbox": [
+              303.27301025390625,
+              741.3622436523438,
+              308.7275695800781,
+              752.2713623046875
+            ],
+            "column": 1,
+            "kind": "heading",
+            "line_bboxes": [
+              [
+                303.27301025390625,
+                741.3622436523438,
+                308.7275695800781,
+                752.2713623046875
+              ]
+            ],
+            "synctex": {
+              "file": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+              "first_line": 120,
+              "last_line": 120
+            },
+            "text_preview": "3"
+          }
+        ]
+      }
+    ]
+  },
+  "synctex": {
+    "available": true,
+    "files": {
+      "1": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.tex",
+      "2": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/base/article.cls",
+      "3": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/base/size11.clo",
+      "4": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/geometry/geometry.sty",
+      "5": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/graphics/keyval.sty",
+      "6": "/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty",
+      "7": "/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty",
+      "8": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/graphics/graphicx.sty",
+      "9": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/graphics/graphics.sty",
+      "10": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/graphics/trig.sty",
+      "11": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/graphics-cfg/graphics.cfg",
+      "12": "/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def",
+      "13": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/booktabs/booktabs.sty",
+      "14": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/lipsum/lipsum.sty",
+      "15": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/l3packages/l3keys2e/l3keys2e.sty",
+      "16": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/l3kernel/expl3.sty",
+      "17": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/l3backend/l3backend-pdftex.def",
+      "18": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/lipsum/lipsum.ltd.tex",
+      "19": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.aux",
+      "20": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/epstopdf-pkg/epstopdf-base.sty",
+      "21": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/git_repo/Knn_Graph/neurips_2026/.texlive/usertree/tex/latex/latexconfig/epstopdf-sys.cfg",
+      "22": "/datacenter/ALEX_undergraduate/workspaces/njj20060901/page-fitter/tests/fixture/./min.aux"
+    },
+    "forward_index_size": 1409,
+    "warnings": []
+  },
+  "log": {
+    "overfull_hbox": [],
+    "underfull_vbox": [],
+    "float_warnings": []
+  }
+}

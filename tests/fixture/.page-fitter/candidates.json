@@ -1,0 +1,3011 @@
+{
+  "schema_version": "1.0",
+  "candidates": [
+    {
+      "id": "c001",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 1,
+        "col_start": 15,
+        "col_end": 19,
+        "text": "11pt"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c002",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 1,
+        "col_start": 21,
+        "col_end": 28,
+        "text": "article"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c003",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 2,
+        "col_start": 42,
+        "col_end": 52,
+        "text": "margin=1in"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c004",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 2,
+        "col_start": 54,
+        "col_end": 62,
+        "text": "geometry"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c005",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 3,
+        "col_start": 76,
+        "col_end": 84,
+        "text": "graphicx"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c006",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 4,
+        "col_start": 98,
+        "col_end": 106,
+        "text": "booktabs"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c007",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 5,
+        "col_start": 120,
+        "col_end": 126,
+        "text": "lipsum"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c008",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 7,
+        "col_start": 136,
+        "col_end": 199,
+        "text": "A Toy Paper for page-fitter (current: 3 pages, target: 2 pages)"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c009",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 8,
+        "col_start": 209,
+        "col_end": 218,
+        "text": "Anonymous"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c010",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 20,
+        "col_start": 490,
+        "col_end": 502,
+        "text": "Introduction"
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 128.53834915161133,
+        "y": 275.6640930175781,
+        "block_id": "p1.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c011",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 22,
+        "col_start": 588,
+        "col_end": 601,
+        "text": "Furthermore,"
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 128.53834915161133,
+        "y": 275.6640930175781,
+        "block_id": "p1.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c012",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 26,
+        "col_start": 926,
+        "col_end": 936,
+        "text": "Moreover,"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c013",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 23,
+        "col_start": 707,
+        "col_end": 732,
+        "text": "It is worth noting that,"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c014",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 28,
+        "col_start": 1029,
+        "col_end": 1049,
+        "text": "As mentioned above,"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c015",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 28,
+        "col_start": 1075,
+        "col_end": 1091,
+        "text": "In other words,"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c016",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 20,
+        "col_start": 503,
+        "col_end": 587,
+        "text": "In this paper, we introduce a toy fixture for stress-testing the page-fitter\nskill."
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 128.53834915161133,
+        "y": 275.6640930175781,
+        "block_id": "p1.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c017",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 22,
+        "col_start": 588,
+        "col_end": 706,
+        "text": "Furthermore, we demonstrate that the skill can rank candidate edits by\nPDF-height impact rather than by source length."
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 128.53834915161133,
+        "y": 275.6640930175781,
+        "block_id": "p1.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c018",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 23,
+        "col_start": 707,
+        "col_end": 925,
+        "text": "It is worth noting that, this\nopening paragraph is intentionally written so that its last line is nearly\nfull, which gives it a high last-line-fill ratio, which means a small\ndeletion should collapse "
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c019",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 26,
+        "col_start": 926,
+        "col_end": 1028,
+        "text": "Moreover, we propose a new way\nto count things that improves accuracy by 12 percent over the baseline."
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c020",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 28,
+        "col_start": 1029,
+        "col_end": 1074,
+        "text": "As mentioned above, accuracy is what matters."
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c021",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 28,
+        "col_start": 1075,
+        "col_end": 1200,
+        "text": "In other words, we will show\nthat our method outperforms prior work by a substantial margin on every\nbenchmark we evaluated."
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c022",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 33,
+        "col_start": 1233,
+        "col_end": 1246,
+        "text": "Furthermore,"
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 306.04922103881836,
+        "y": 409.3772888183594,
+        "block_id": "p1.b6"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c023",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 34,
+        "col_start": 1293,
+        "col_end": 1318,
+        "text": "It is worth noting that,"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c024",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 35,
+        "col_start": 1394,
+        "col_end": 1414,
+        "text": "As mentioned above,"
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 133.22958374023438,
+        "y": 551.1752014160156,
+        "block_id": "p1.b7"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c025",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 34,
+        "col_start": 1293,
+        "col_end": 1393,
+        "text": "It is worth noting that, the lipsum environment provides reproducible\nfiller for layout experiments."
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c026",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 35,
+        "col_start": 1394,
+        "col_end": 1439,
+        "text": "As mentioned above, reproducibility is key."
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 133.22958374023438,
+        "y": 551.1752014160156,
+        "block_id": "p1.b7"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c027",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 37,
+        "col_start": 1448,
+        "col_end": 1460,
+        "text": "Related Work"
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 133.22958374023438,
+        "y": 551.1752014160156,
+        "block_id": "p1.b7"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c028",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 38,
+        "col_start": 1478,
+        "col_end": 1491,
+        "text": "Furthermore,"
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 133.22958374023438,
+        "y": 551.1752014160156,
+        "block_id": "p1.b7"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c029",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 39,
+        "col_start": 1554,
+        "col_end": 1579,
+        "text": "It is worth noting that,"
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 133.22958374023438,
+        "y": 551.1752014160156,
+        "block_id": "p1.b7"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c030",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 41,
+        "col_start": 1710,
+        "col_end": 1727,
+        "text": "As we have seen,"
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 306.04376220703125,
+        "y": 644.2408447265625,
+        "block_id": "p1.b8"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c031",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 39,
+        "col_start": 1554,
+        "col_end": 1658,
+        "text": "It is worth noting that, several authors have considered\nrelated problems but with different objectives."
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 133.22958374023438,
+        "y": 551.1752014160156,
+        "block_id": "p1.b7"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c032",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 40,
+        "col_start": 1659,
+        "col_end": 1709,
+        "text": "We show that our framing is\nstrictly more general."
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 306.04376220703125,
+        "y": 644.2408447265625,
+        "block_id": "p1.b8"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c033",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 41,
+        "col_start": 1710,
+        "col_end": 1781,
+        "text": "As we have seen, the literature is fragmented across\nthree communities."
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 306.04376220703125,
+        "y": 644.2408447265625,
+        "block_id": "p1.b8"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c034",
+      "type": "section_opening",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 42,
+        "col_start": 1782,
+        "col_end": 1833,
+        "text": "In this section, we describe the relevant threads."
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 306.04376220703125,
+        "y": 644.2408447265625,
+        "block_id": "p1.b8"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c035",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 47,
+        "col_start": 2018,
+        "col_end": 2031,
+        "text": "Furthermore,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0218811035156,
+        "y": 86.66223526000977,
+        "block_id": "p2.b1"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c036",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 46,
+        "col_start": 1938,
+        "col_end": 1948,
+        "text": "Moreover,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0218811035156,
+        "y": 86.66223526000977,
+        "block_id": "p2.b1"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c037",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 45,
+        "col_start": 1850,
+        "col_end": 1866,
+        "text": "In other words,"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c038",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 46,
+        "col_start": 1938,
+        "col_end": 2017,
+        "text": "Moreover, no single prior work addresses all three\nperspectives simultaneously."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0218811035156,
+        "y": 86.66223526000977,
+        "block_id": "p2.b1"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c039",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 47,
+        "col_start": 2018,
+        "col_end": 2090,
+        "text": "Furthermore, our framework unifies them under\na common scoring formula."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0218811035156,
+        "y": 86.66223526000977,
+        "block_id": "p2.b1"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c040",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 50,
+        "col_start": 2116,
+        "col_end": 2122,
+        "text": "Method"
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 306.0002899169922,
+        "y": 746.8168029785156,
+        "block_id": "p1.b9"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c041",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 50,
+        "col_start": 2123,
+        "col_end": 2152,
+        "text": "We now describe the method."
+      },
+      "pdf_loc": {
+        "page": 1,
+        "column": 0,
+        "x": 306.0002899169922,
+        "y": 746.8168029785156,
+        "block_id": "p1.b9"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c042",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 55,
+        "col_start": 2329,
+        "col_end": 2342,
+        "text": "Furthermore,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0328369140625,
+        "y": 192.80875396728516,
+        "block_id": "p2.b3"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c043",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 53,
+        "col_start": 2223,
+        "col_end": 2233,
+        "text": "Moreover,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 111.81069946289062,
+        "y": 126.84109497070312,
+        "block_id": "p2.b2"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c044",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 54,
+        "col_start": 2262,
+        "col_end": 2287,
+        "text": "It is worth noting that,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0328369140625,
+        "y": 192.80875396728516,
+        "block_id": "p2.b3"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c045",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 56,
+        "col_start": 2399,
+        "col_end": 2419,
+        "text": "As mentioned above,"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c046",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 53,
+        "col_start": 2223,
+        "col_end": 2261,
+        "text": "Moreover, we provide\na worked example."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 111.81069946289062,
+        "y": 126.84109497070312,
+        "block_id": "p2.b2"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c047",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 54,
+        "col_start": 2262,
+        "col_end": 2328,
+        "text": "It is worth noting that, the algorithm has linear time\ncomplexity."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0328369140625,
+        "y": 192.80875396728516,
+        "block_id": "p2.b3"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c048",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 55,
+        "col_start": 2329,
+        "col_end": 2398,
+        "text": "Furthermore, the algorithm is parallelizable across multiple\nthreads."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0328369140625,
+        "y": 192.80875396728516,
+        "block_id": "p2.b3"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c049",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 56,
+        "col_start": 2399,
+        "col_end": 2462,
+        "text": "As mentioned above, scalability is critical for practical use."
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c050",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 61,
+        "col_start": 2519,
+        "col_end": 2522,
+        "text": "6cm"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c051",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 61,
+        "col_start": 2524,
+        "col_end": 2527,
+        "text": "3cm"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c052",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 62,
+        "col_start": 2540,
+        "col_end": 2570,
+        "text": "The architecture of our model."
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c053",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 62,
+        "col_start": 2571,
+        "col_end": 2777,
+        "text": "As shown in the diagram, the\n    encoder feeds into the decoder via a residual path, and the decoder\n    produces the final output through a linear projection layer that we\n    describe in detail in S"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c054",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 65,
+        "col_start": 2778,
+        "col_end": 2851,
+        "text": "3, with all intermediate representations\n    stored for later inspection."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0492858886719,
+        "y": 376.4077453613281,
+        "block_id": "p2.b4"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c055",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 67,
+        "col_start": 2862,
+        "col_end": 2870,
+        "text": "fig:arch"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0492858886719,
+        "y": 376.4077453613281,
+        "block_id": "p2.b4"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c056",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 70,
+        "col_start": 2949,
+        "col_end": 2962,
+        "text": "Furthermore,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0220031738281,
+        "y": 435.7847595214844,
+        "block_id": "p2.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c057",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 71,
+        "col_start": 3018,
+        "col_end": 3038,
+        "text": "As mentioned above,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0220031738281,
+        "y": 435.7847595214844,
+        "block_id": "p2.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c058",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 70,
+        "col_start": 2886,
+        "col_end": 2902,
+        "text": "In other words,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0220031738281,
+        "y": 435.7847595214844,
+        "block_id": "p2.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c059",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 68,
+        "col_start": 2884,
+        "col_end": 2948,
+        "text": "In other words, the figure summarises the entire architecture."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0492858886719,
+        "y": 376.4077453613281,
+        "block_id": "p2.b4"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c060",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 70,
+        "col_start": 2949,
+        "col_end": 3017,
+        "text": "Furthermore,\nthe architecture is modular and can be extended easily."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0220031738281,
+        "y": 435.7847595214844,
+        "block_id": "p2.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c061",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 71,
+        "col_start": 3018,
+        "col_end": 3092,
+        "text": "As mentioned above,\nextensibility is one of the strengths of our design."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0220031738281,
+        "y": 435.7847595214844,
+        "block_id": "p2.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c062",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 74,
+        "col_start": 3101,
+        "col_end": 3112,
+        "text": "Experiments"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 128.58859252929688,
+        "y": 482.7391052246094,
+        "block_id": "p2.b6"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c063",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 74,
+        "col_start": 3113,
+        "col_end": 3165,
+        "text": "We compare against three baselines on two datasets."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 128.58859252929688,
+        "y": 482.7391052246094,
+        "block_id": "p2.b6"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c064",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 75,
+        "col_start": 3166,
+        "col_end": 3184,
+        "text": "As shown in\nFigure"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 128.58859252929688,
+        "y": 482.7391052246094,
+        "block_id": "p2.b6"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c065",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 76,
+        "col_start": 3190,
+        "col_end": 3198,
+        "text": "fig:arch"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 128.58859252929688,
+        "y": 482.7391052246094,
+        "block_id": "p2.b6"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c066",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 76,
+        "col_start": 3199,
+        "col_end": 3209,
+        "text": "and Table"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 128.58859252929688,
+        "y": 482.7391052246094,
+        "block_id": "p2.b6"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c067",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 76,
+        "col_start": 3215,
+        "col_end": 3226,
+        "text": "tab:results"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 128.58859252929688,
+        "y": 482.7391052246094,
+        "block_id": "p2.b6"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c068",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 76,
+        "col_start": 3227,
+        "col_end": 3277,
+        "text": ", our method consistently\noutperforms prior work."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 128.58859252929688,
+        "y": 482.7391052246094,
+        "block_id": "p2.b6"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c069",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 77,
+        "col_start": 3293,
+        "col_end": 3306,
+        "text": "Furthermore,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0328674316406,
+        "y": 541.9317321777344,
+        "block_id": "p2.b7"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c070",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 78,
+        "col_start": 3344,
+        "col_end": 3369,
+        "text": "It is worth noting that,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0328674316406,
+        "y": 541.9317321777344,
+        "block_id": "p2.b7"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c071",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 78,
+        "col_start": 3344,
+        "col_end": 3406,
+        "text": "It is worth noting that, the variance across seeds is\nsmall."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0328674316406,
+        "y": 541.9317321777344,
+        "block_id": "p2.b7"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c072",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 83,
+        "col_start": 3480,
+        "col_end": 3500,
+        "text": "As mentioned above,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0328674316406,
+        "y": 618.8472595214844,
+        "block_id": "p2.b8"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c073",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 83,
+        "col_start": 3448,
+        "col_end": 3479,
+        "text": "Main results on two benchmarks."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0328674316406,
+        "y": 618.8472595214844,
+        "block_id": "p2.b8"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c074",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 83,
+        "col_start": 3480,
+        "col_end": 3650,
+        "text": "As mentioned above, our method\n    outperforms all baselines by a wide margin, and the gap is particularly\n    pronounced on the larger of the two datasets we considered."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0328674316406,
+        "y": 618.8472595214844,
+        "block_id": "p2.b8"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c075",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 86,
+        "col_start": 3661,
+        "col_end": 3672,
+        "text": "tab:results"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0328674316406,
+        "y": 618.8472595214844,
+        "block_id": "p2.b8"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c076",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 89,
+        "col_start": 3714,
+        "col_end": 3721,
+        "text": "Method"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 305.9944534301758,
+        "y": 646.8027648925781,
+        "block_id": "p2.b9"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c077",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 89,
+        "col_start": 3722,
+        "col_end": 3733,
+        "text": "Dataset A"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 305.9944534301758,
+        "y": 646.8027648925781,
+        "block_id": "p2.b9"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c078",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 89,
+        "col_start": 3734,
+        "col_end": 3745,
+        "text": "Dataset B"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 305.9944534301758,
+        "y": 646.8027648925781,
+        "block_id": "p2.b9"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c079",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 91,
+        "col_start": 3765,
+        "col_end": 3776,
+        "text": "Baseline 1"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 305.9944534301758,
+        "y": 646.8027648925781,
+        "block_id": "p2.b9"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c080",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 91,
+        "col_start": 3777,
+        "col_end": 3783,
+        "text": "71.2"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 305.9944534301758,
+        "y": 646.8027648925781,
+        "block_id": "p2.b9"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c081",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 91,
+        "col_start": 3784,
+        "col_end": 3790,
+        "text": "68.5"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 305.9944534301758,
+        "y": 646.8027648925781,
+        "block_id": "p2.b9"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c082",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 91,
+        "col_start": 3792,
+        "col_end": 3808,
+        "text": "Baseline 2"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 305.9944534301758,
+        "y": 646.8027648925781,
+        "block_id": "p2.b9"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c083",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 92,
+        "col_start": 3809,
+        "col_end": 3815,
+        "text": "74.8"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 299.5128860473633,
+        "y": 686.1532287597656,
+        "block_id": "p2.b10"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c084",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 92,
+        "col_start": 3816,
+        "col_end": 3822,
+        "text": "70.1"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 299.5128860473633,
+        "y": 686.1532287597656,
+        "block_id": "p2.b10"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c085",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 92,
+        "col_start": 3824,
+        "col_end": 3840,
+        "text": "Baseline 3"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 299.5128860473633,
+        "y": 686.1532287597656,
+        "block_id": "p2.b10"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c086",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 93,
+        "col_start": 3841,
+        "col_end": 3847,
+        "text": "76.5"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 299.5128860473633,
+        "y": 686.1532287597656,
+        "block_id": "p2.b10"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c087",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 93,
+        "col_start": 3848,
+        "col_end": 3854,
+        "text": "71.4"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 299.5128860473633,
+        "y": 686.1532287597656,
+        "block_id": "p2.b10"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c088",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 93,
+        "col_start": 3856,
+        "col_end": 3872,
+        "text": "Ours"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 299.5128860473633,
+        "y": 686.1532287597656,
+        "block_id": "p2.b10"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c089",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 94,
+        "col_start": 3882,
+        "col_end": 3886,
+        "text": "83.4"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 299.5128860473633,
+        "y": 686.1532287597656,
+        "block_id": "p2.b10"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c090",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 94,
+        "col_start": 3898,
+        "col_end": 3902,
+        "text": "79.6"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 299.5128860473633,
+        "y": 686.1532287597656,
+        "block_id": "p2.b10"
+      },
+      "tags": {
+        "float_adjacent": true,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c091",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 102,
+        "col_start": 4038,
+        "col_end": 4051,
+        "text": "Furthermore,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0002899169922,
+        "y": 746.8167419433594,
+        "block_id": "p2.b11"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c092",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 103,
+        "col_start": 4143,
+        "col_end": 4168,
+        "text": "It is worth noting that,"
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 0,
+        "x": 120.92771911621094,
+        "y": 181.03811645507812,
+        "block_id": "p3.b2"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c093",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 101,
+        "col_start": 3969,
+        "col_end": 3985,
+        "text": "In other words,"
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0002899169922,
+        "y": 746.8167419433594,
+        "block_id": "p2.b11"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c094",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 102,
+        "col_start": 4038,
+        "col_end": 4142,
+        "text": "Furthermore, the ablation study (omitted for space) shows that every\ncomponent contributes meaningfully."
+      },
+      "pdf_loc": {
+        "page": 2,
+        "column": 0,
+        "x": 306.0002899169922,
+        "y": 746.8167419433594,
+        "block_id": "p2.b11"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c095",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 103,
+        "col_start": 4143,
+        "col_end": 4215,
+        "text": "It is worth noting that, results are\naveraged over three random seeds."
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 0,
+        "x": 120.92771911621094,
+        "y": 181.03811645507812,
+        "block_id": "p3.b2"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c096",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 106,
+        "col_start": 4224,
+        "col_end": 4234,
+        "text": "Discussion"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c097",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 109,
+        "col_start": 4378,
+        "col_end": 4391,
+        "text": "Furthermore,"
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.0328674316406,
+        "y": 240.23078155517578,
+        "block_id": "p3.b3"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c098",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 108,
+        "col_start": 4328,
+        "col_end": 4338,
+        "text": "Moreover,"
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.0328674316406,
+        "y": 240.23078155517578,
+        "block_id": "p3.b3"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c099",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 109,
+        "col_start": 4428,
+        "col_end": 4453,
+        "text": "It is worth noting that,"
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.0328674316406,
+        "y": 240.23078155517578,
+        "block_id": "p3.b3"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c100",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 107,
+        "col_start": 4282,
+        "col_end": 4299,
+        "text": "As we have seen,"
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c101",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 110,
+        "col_start": 4509,
+        "col_end": 4525,
+        "text": "In other words,"
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.0328674316406,
+        "y": 240.23078155517578,
+        "block_id": "p3.b3"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c102",
+      "type": "section_opening",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 106,
+        "col_start": 4235,
+        "col_end": 4281,
+        "text": "In this section, we discuss the implications."
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c103",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 107,
+        "col_start": 4282,
+        "col_end": 4327,
+        "text": "As we have seen, the method\ngeneralizes well."
+      },
+      "pdf_loc": null,
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c104",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 108,
+        "col_start": 4328,
+        "col_end": 4377,
+        "text": "Moreover, it is robust to hyperparameter choices."
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.0328674316406,
+        "y": 240.23078155517578,
+        "block_id": "p3.b3"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c105",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 109,
+        "col_start": 4378,
+        "col_end": 4427,
+        "text": "Furthermore, it scales gracefully with data size."
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.0328674316406,
+        "y": 240.23078155517578,
+        "block_id": "p3.b3"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c106",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 109,
+        "col_start": 4428,
+        "col_end": 4508,
+        "text": "It is worth noting that,\nall experiments were conducted with three random seeds."
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.0328674316406,
+        "y": 240.23078155517578,
+        "block_id": "p3.b3"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c107",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 110,
+        "col_start": 4509,
+        "col_end": 4555,
+        "text": "In other words, the\nresults are reproducible."
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.0328674316406,
+        "y": 240.23078155517578,
+        "block_id": "p3.b3"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c108",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 113,
+        "col_start": 4582,
+        "col_end": 4592,
+        "text": "Conclusion"
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 0,
+        "x": 122.72815704345703,
+        "y": 307.5081481933594,
+        "block_id": "p3.b4"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c109",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 115,
+        "col_start": 4723,
+        "col_end": 4736,
+        "text": "Furthermore,"
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.038330078125,
+        "y": 353.15179443359375,
+        "block_id": "p3.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c110",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 116,
+        "col_start": 4784,
+        "col_end": 4804,
+        "text": "As mentioned above,"
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.038330078125,
+        "y": 353.15179443359375,
+        "block_id": "p3.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c111",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 117,
+        "col_start": 4867,
+        "col_end": 4883,
+        "text": "In other words,"
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.038330078125,
+        "y": 353.15179443359375,
+        "block_id": "p3.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c112",
+      "type": "discourse_transition",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 114,
+        "col_start": 4624,
+        "col_end": 4640,
+        "text": "That is to say,"
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.038330078125,
+        "y": 353.15179443359375,
+        "block_id": "p3.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c113",
+      "type": "section_opening",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 113,
+        "col_start": 4593,
+        "col_end": 4623,
+        "text": "In this section, we conclude."
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 0,
+        "x": 122.72815704345703,
+        "y": 307.5081481933594,
+        "block_id": "p3.b4"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c114",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 114,
+        "col_start": 4624,
+        "col_end": 4652,
+        "text": "That is to say, we are done."
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.038330078125,
+        "y": 353.15179443359375,
+        "block_id": "p3.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c115",
+      "type": "sentence_claim",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 114,
+        "col_start": 4653,
+        "col_end": 4722,
+        "text": "We show that our\nmethod achieves 99 percent accuracy on the toy task."
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.038330078125,
+        "y": 353.15179443359375,
+        "block_id": "p3.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": true,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c116",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 115,
+        "col_start": 4723,
+        "col_end": 4783,
+        "text": "Furthermore, we believe\nthe framework is broadly applicable."
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.038330078125,
+        "y": 353.15179443359375,
+        "block_id": "p3.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c117",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 116,
+        "col_start": 4784,
+        "col_end": 4866,
+        "text": "As mentioned above, future work will\nextend the analysis to additional benchmarks."
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.038330078125,
+        "y": 353.15179443359375,
+        "block_id": "p3.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    },
+    {
+      "id": "c118",
+      "type": "sentence_descriptive",
+      "src_loc": {
+        "file": "min.tex",
+        "line": 117,
+        "col_start": 4867,
+        "col_end": 4912,
+        "text": "In other words, this is just\nthe beginning."
+      },
+      "pdf_loc": {
+        "page": 3,
+        "column": 1,
+        "x": 306.038330078125,
+        "y": 353.15179443359375,
+        "block_id": "p3.b5"
+      },
+      "tags": {
+        "float_adjacent": false,
+        "in_abstract": false,
+        "in_proof": false,
+        "is_argument_load_bearing": false,
+        "algorithm_local": false
+      },
+      "edit_action": "delete_span",
+      "edit_payload": null
+    }
+  ]
+}
