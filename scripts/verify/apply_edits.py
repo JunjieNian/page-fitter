@@ -46,7 +46,10 @@ def _apply_to_text(action: str, payload, text: str, col_start: int, col_end: int
     return text  # unknown → no-op
 
 
-def apply_edits(ranked: dict, project_root: Path, edit_ids: list[str], log_path: Path | None) -> dict:
+def apply_edits(
+    ranked: dict, project_root: Path,
+    edit_ids: list[str], log_path: Path | None,
+) -> dict:
     by_id = {s["id"]: s for s in ranked["scored"]}
     selected = [by_id[i] for i in edit_ids if i in by_id]
     missing = [i for i in edit_ids if i not in by_id]
@@ -112,7 +115,10 @@ def apply_edits(ranked: dict, project_root: Path, edit_ids: list[str], log_path:
         with log_path.open("a", encoding="utf-8") as fh:
             ts = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
             for a in applied:
-                fh.write(f"{ts}  {a['id']}  {a['file']}:{a['line']}  {a['action']}  hash={a['hash']}\n")
+                fh.write(
+                    f"{ts}  {a['id']}  {a['file']}:{a['line']}"
+                    f"  {a['action']}  hash={a['hash']}\n"
+                )
 
     return {"applied": applied, "skipped": skipped, "missing": missing}
 

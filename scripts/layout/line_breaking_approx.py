@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import math
 
-
 _PT_PER_CHAR = 5.0  # rough average for 10pt body text in two-column papers
 
 

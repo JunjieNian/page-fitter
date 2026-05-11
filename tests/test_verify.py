@@ -1,16 +1,15 @@
 """Tests for scripts/verify/ — apply_edits, revert."""
 from __future__ import annotations
 
+import os
 import sys
+import time
 from pathlib import Path
-
-import pytest
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts" / "verify"))
 
 import apply_edits  # noqa: E402
 import revert as revert_mod  # noqa: E402
-
 
 # ── apply_edits internals ────────────────────────────────────────────────
 
@@ -28,7 +27,9 @@ class TestApplyToText:
     def test_compress_to_first_sentence(self):
         text = "First. Second sentence goes here."
         payload = {"keep": "First."}
-        result = apply_edits._apply_to_text("compress_to_first_sentence", payload, text, 0, len(text))
+        result = apply_edits._apply_to_text(
+            "compress_to_first_sentence", payload, text, 0, len(text),
+        )
         assert result == "First."
 
     def test_merge_cites_is_noop(self):
@@ -69,7 +70,6 @@ class TestRevert:
         tex.write_text("modified content")
         bak.write_text("original content")
         # Make bak newer so force is not required
-        import os
         os.utime(bak, (bak.stat().st_mtime + 10, bak.stat().st_mtime + 10))
 
         result = revert_mod.revert(tmp_path, force=False)
@@ -80,7 +80,7 @@ class TestRevert:
         tex = tmp_path / "test.tex"
         bak = tmp_path / "test.tex.bak"
         bak.write_text("original content")
-        import time; time.sleep(0.05)
+        time.sleep(0.05)
         tex.write_text("newer content")
 
         result = revert_mod.revert(tmp_path, force=False)
@@ -91,7 +91,7 @@ class TestRevert:
         tex = tmp_path / "test.tex"
         bak = tmp_path / "test.tex.bak"
         bak.write_text("original content")
-        import time; time.sleep(0.05)
+        time.sleep(0.05)
         tex.write_text("newer content")
 
         result = revert_mod.revert(tmp_path, force=True)

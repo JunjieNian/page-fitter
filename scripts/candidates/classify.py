@@ -4,7 +4,6 @@ from __future__ import annotations
 
 import re
 
-
 _FLOAT_ENVS = {"figure", "figure*", "table", "table*", "algorithm", "algorithm2e"}
 _PROOF_ENVS = {"proof"}
 

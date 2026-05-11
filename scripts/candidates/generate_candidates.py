@@ -18,9 +18,8 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 
-import parse_latex  # noqa: E402
 import classify  # noqa: E402
-
+import parse_latex  # noqa: E402
 
 _DISCOURSE_PATTERNS = [
     r"\bFurthermore,\s*",

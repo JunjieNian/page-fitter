@@ -15,14 +15,15 @@ import re
 import sys
 from pathlib import Path
 
+
 def _import_pylatexenc():
     try:
         from pylatexenc.latexwalker import (
-            LatexWalker,
-            LatexEnvironmentNode,
-            LatexMacroNode,
             LatexCharsNode,
+            LatexEnvironmentNode,
             LatexGroupNode,
+            LatexMacroNode,
+            LatexWalker,
         )
         return LatexWalker, LatexEnvironmentNode, LatexMacroNode, LatexCharsNode, LatexGroupNode
     except ImportError:  # pragma: no cover

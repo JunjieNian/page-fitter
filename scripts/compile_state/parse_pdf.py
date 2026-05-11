@@ -15,6 +15,7 @@ import sys
 from pathlib import Path
 from statistics import median
 
+
 def _import_fitz():
     try:
         import fitz  # PyMuPDF

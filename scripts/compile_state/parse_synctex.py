@@ -24,7 +24,6 @@ import re
 import sys
 from pathlib import Path
 
-
 _RE_INPUT = re.compile(r"^Input:(\d+):(.+)$")
 _RE_PAGE = re.compile(r"^\{(\d+)$")
 _RE_RECORD_BOX = re.compile(
@@ -50,7 +49,7 @@ def parse_synctex_index(synctex_path: Path) -> dict:
     reverse: list[tuple[int, float, float, str, int]] = []
 
     current_page: int | None = None
-    current_file: int | None = None
+    current_file: int | None = None  # noqa: F841
 
     with _open_synctex(synctex_path) as fh:
         for raw in fh:

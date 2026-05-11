@@ -20,7 +20,6 @@ sys.path.insert(0, str(HERE))
 import boundary_leverage  # noqa: E402
 import layout_gain  # noqa: E402
 
-
 # Triage type-class medians (mirror references/candidate-types.md).
 _TRIAGE_COSTS = {
     "discourse_transition": 1,
@@ -196,8 +195,9 @@ def render_report(ranked: dict, *, triage: bool) -> str:
     lines = ["# page-fitter report", ""]
     if triage:
         lines.append(
-            "> **Triage mode** — semantic cost is type-class median, not per-candidate. "
-            "Re-run without `--triage` for a higher-confidence ranking before applying multi-edit batches."
+            "> **Triage mode** — semantic cost is type-class median, "
+            "not per-candidate. Re-run without `--triage` for a "
+            "higher-confidence ranking before applying multi-edit batches."
         )
         lines.append("")
     cur = s["current_page_count"]
@@ -205,7 +205,10 @@ def render_report(ranked: dict, *, triage: bool) -> str:
     if lim is not None:
         delta = cur - lim
         if delta > 0:
-            lines.append(f"Current: **{cur} pages** — limit: **{lim}** — need to lose: **{delta} page(s)**.")
+            lines.append(
+                f"Current: **{cur} pages** — limit: **{lim}** "
+                f"— need to lose: **{delta} page(s)**."
+            )
         else:
             lines.append(f"Current: **{cur} pages** — limit: **{lim}** — already under limit.")
     else:

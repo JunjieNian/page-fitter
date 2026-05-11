@@ -2,7 +2,6 @@
 """Distance-to-page-break leverage. See references/boundary-scoring.md."""
 from __future__ import annotations
 
-
 ALPHA = 2.0  # last page boost
 BETA = 0.6   # column-break boost
 GAMMA = 0.8  # downstream paragraph pullable

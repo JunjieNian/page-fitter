@@ -12,8 +12,9 @@ import re
 import sys
 from pathlib import Path
 
-
-_RE_OVERFULL = re.compile(r"^Overfull \\hbox \(([\d.]+)pt too wide\) in paragraph at lines (\d+)--(\d+)")
+_RE_OVERFULL = re.compile(
+    r"^Overfull \\hbox \(([\d.]+)pt too wide\) in paragraph at lines (\d+)--(\d+)"
+)
 _RE_UNDERFULL = re.compile(r"^Underfull \\vbox .* at lines (\d+)--(\d+)")
 _RE_FLOAT_DEFER = re.compile(r"`!t' float specifier changed to `!tp'")
 _RE_FLOAT_NOT_ON_PAGE = re.compile(r"Float .* not on page")
@@ -45,7 +46,11 @@ def parse_log(log_path: Path) -> dict:
                 {"line_start": int(m.group(1)), "line_end": int(m.group(2))}
             )
             continue
-        if _RE_FLOAT_DEFER.search(ln) or _RE_FLOAT_NOT_ON_PAGE.search(ln) or _RE_FLOAT_TOO_LARGE.search(ln):
+        if (
+            _RE_FLOAT_DEFER.search(ln)
+            or _RE_FLOAT_NOT_ON_PAGE.search(ln)
+            or _RE_FLOAT_TOO_LARGE.search(ln)
+        ):
             float_warnings.append({"raw": ln.strip()})
 
     return {

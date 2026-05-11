@@ -9,7 +9,6 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts" / "can
 import classify  # noqa: E402
 import generate_candidates as gc  # noqa: E402
 
-
 # ── classify ─────────────────────────────────────────────────────────────
 
 class TestClassify:
@@ -48,22 +47,41 @@ class TestClassify:
 
 class TestClassifySentence:
     def test_proof_env_overrides(self):
-        assert classify.classify_sentence("This is trivial.", env_stack=["proof"]) == "sentence_proof_step"
+        result = classify.classify_sentence(
+            "This is trivial.", env_stack=["proof"],
+        )
+        assert result == "sentence_proof_step"
 
     def test_claim_verb(self):
-        assert classify.classify_sentence("We show that X is optimal.", env_stack=[]) == "sentence_claim"
+        result = classify.classify_sentence(
+            "We show that X is optimal.", env_stack=[],
+        )
+        assert result == "sentence_claim"
 
     def test_comparative(self):
-        assert classify.classify_sentence("Our method outperforms the baseline.", env_stack=[]) == "sentence_claim"
+        result = classify.classify_sentence(
+            "Our method outperforms the baseline.", env_stack=[],
+        )
+        assert result == "sentence_claim"
 
     def test_numeric(self):
-        assert classify.classify_sentence("Accuracy reaches 95.3 percent.", env_stack=[]) == "sentence_claim"
+        result = classify.classify_sentence(
+            "Accuracy reaches 95.3 percent.", env_stack=[],
+        )
+        assert result == "sentence_claim"
 
     def test_section_opening(self):
-        assert classify.classify_sentence("In this section, we describe the algorithm.", env_stack=[]) == "section_opening"
+        result = classify.classify_sentence(
+            "In this section, we describe the algorithm.",
+            env_stack=[],
+        )
+        assert result == "section_opening"
 
     def test_descriptive_fallback(self):
-        assert classify.classify_sentence("The sky is blue.", env_stack=[]) == "sentence_descriptive"
+        result = classify.classify_sentence(
+            "The sky is blue.", env_stack=[],
+        )
+        assert result == "sentence_descriptive"
 
 
 # ── generate_candidates internals ────────────────────────────────────────

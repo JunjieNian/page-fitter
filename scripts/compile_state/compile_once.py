@@ -25,7 +25,6 @@ import subprocess
 import sys
 from pathlib import Path
 
-
 _FALLBACK_ENGINES = ["pdflatex", "xelatex", "lualatex"]
 _COMMON_FLAGS = ["-synctex=1", "-interaction=nonstopmode", "-halt-on-error"]
 

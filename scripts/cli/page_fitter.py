@@ -24,14 +24,14 @@ sys.path.insert(0, str(SCRIPTS / "layout"))
 sys.path.insert(0, str(SCRIPTS / "scoring"))
 sys.path.insert(0, str(SCRIPTS / "verify"))
 
-import snapshot  # noqa: E402
+import apply_edits as apply_mod  # noqa: E402
+import float_risk  # noqa: E402
 import generate_candidates  # noqa: E402
 import paragraph_lines  # noqa: E402
-import float_risk  # noqa: E402
 import rank as rank_mod  # noqa: E402
-import apply_edits as apply_mod  # noqa: E402
 import recompile as recompile_mod  # noqa: E402
 import revert as revert_mod  # noqa: E402
+import snapshot  # noqa: E402
 
 
 def _state_dir(main_tex: Path, override: str | None) -> Path:
@@ -139,9 +139,15 @@ def build_parser() -> argparse.ArgumentParser:
     a = sub.add_parser("analyze", help="Run the full 4-layer analysis pipeline.")
     a.add_argument("main_tex")
     a.add_argument("--out", help="state directory (default: <project>/.page-fitter)")
-    a.add_argument("--triage", action="store_true", help="Skip LLM semantic-cost pass; use type-class medians.")
+    a.add_argument(
+        "--triage", action="store_true",
+        help="Skip LLM semantic-cost pass; use type-class medians.",
+    )
     a.add_argument("--page-limit", type=int, default=None)
-    a.add_argument("--force", action="store_true", help="Force recompile even if state.json is fresh.")
+    a.add_argument(
+        "--force", action="store_true",
+        help="Force recompile even if state.json is fresh.",
+    )
     a.add_argument("--filter", choices=["near-boundary"], default=None)
     a.add_argument("--compiler", default=None,
                    help="Override compiler command (e.g. 'pdflatex' or 'xelatex --shell-escape'). "

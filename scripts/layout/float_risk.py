@@ -11,7 +11,6 @@ import json
 import sys
 from pathlib import Path
 
-
 _RHO1 = 0.4  # float-adjacent
 _RHO2 = 0.6  # upstream deferred float
 _RHO3 = 0.8  # same-page float that already moved
@@ -41,7 +40,6 @@ def compute_float_risk(state: dict, candidates: dict) -> dict:
     deferred = state.get("log", {}).get("float_warnings", [])
     has_any_deferred = bool(deferred)
 
-    blocks = _block_lookup(state)
     out: dict[str, dict] = {}
 
     for c in candidates["candidates"]:

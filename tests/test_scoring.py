@@ -11,7 +11,6 @@ import boundary_leverage  # noqa: E402
 import layout_gain  # noqa: E402
 import rank as rank_mod  # noqa: E402
 
-
 # ── layout_gain ──────────────────────────────────────────────────────────
 
 class TestHeightSaved:

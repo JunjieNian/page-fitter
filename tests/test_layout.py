@@ -6,10 +6,9 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts" / "layout"))
 
-import line_breaking_approx as lba  # noqa: E402
 import float_risk  # noqa: E402
+import line_breaking_approx as lba  # noqa: E402
 import paragraph_lines  # noqa: E402
-
 
 # ── line_breaking_approx ─────────────────────────────────────────────────
 
